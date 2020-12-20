@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+
+}
+
+h5 {
+    color: gray;
+    font-family: sans-serif;
+}
+h3 {
+    color: gray;
+    font-family: sans-serif;
+}
+a{
+    color: yellow;
+}
+
+
+
+.img{
+    max-width: 26%;
+    height: auto;
+    vertical-align: top;
+    border-style: solid;
+}
+.img2{
+    max-width: 10%;
+    height: auto;
+    vertical-align: top;
+    border-style: solid;
+    justify-content: space-around;
+}
+.img3{
+    max-width: 10%;
+    height: auto;
+    vertical-align: top;
+    border-style: solid;
+    justify-content: space-around;
+}
+.img4{
+    max-width: 10%;
+    height: auto;
+    vertical-align: top;
+    border-style: solid;
+    justify-content: space-around;
+}
+
+.gridWrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+        'h1 h1 he he he'
+        'na na na na as'
+        'a1 a1 a1 a1 as'
+        'a2 a2 a2 a2 as'
+        'a3 a3 a3 a3 as'
+        'ft ft ft ft ft'
+    ;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+
+    color: red;
+}
+
+.header2 {
+    font-size: 60px;
+    text-shadow: 5px rgb(151, 150, 150);
+    grid-area: he;
+    background: black;
+
+}
+
+.headertext{
+    color: rgb(167, 17, 17)
+
+}
+
+.header {
+    justify-content: center;
+    grid-area: h1;
+    background: black;
+    height: 100%;
+    opacity: 100%;
+
+}
+
+
+
+.titel {
+    text-align: left;
+}
+
+.nav {
+    grid-area: na;
+    background: black;   
+    opacity: 80%; 
+}
+
+
+.nav > ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 35px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    list-style-type: square;
+}
+
+.article1 {
+    grid-area: a1;
+    background: black;
+    opacity: 90%;
+}
+
+.article2 {
+    grid-area: a2;
+    background: black;
+    opacity: 80%;
+}
+
+.article3 {
+    grid-area: a3;
+    background: black;
+    opacity: 90%;
+}
+
+
+.aside {
+    grid-area: as;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    margin: 14px;
+    font-family: sans-serif;
+    color: rgb(167, 17, 17)
+}
+
+
+
+.footer {
+    grid-area: ft;
+    background: black;
+    text-align: center;
+
+}
+h5 {
+    font-family: sans-serif;
+}
+
